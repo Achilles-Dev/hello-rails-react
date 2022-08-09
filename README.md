@@ -1,56 +1,61 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Hello Rails React
 
-> Description the project.
+> This is an exercise will have you connect previous knowledge with new knowledge as you get a chance to use the `react-rails` gem. This gem allows you to build React components as a part of your Rails JavaScript and serve it in a component, `react_component`, to be used in a regular ERB file.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- Ruby, Javascript
+- Ruby on Rails, React, Redux
+- Webpack, Babel
+- Postgresql
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Ruby
+- Rails
+- Postgresql
+- React
+- Redux
+
 ### Setup
+
+- Clone the Repository
+`git clone https://github.com/Achilles-Dev/hello-rails-react.git`
+
+- Go to the project directory
+`cd hello-rails-react`
+
+- Run ```bundle install```
+- Run ```rails db:create```
+- Run ```rails db:migrate```
+
 
 ### Install
 
+- Run ```npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x```
+- Run ```gem install --no-document rubocop -v '>= 1.0, < 2.0'```
+
+
 ### Usage
 
-### Run tests
+- Run ```rails s``` to run the app
 
-### Deployment
-
+- Run ```./bin/webpack-dev-server``` in a separate terminal
 
 
 ## Authors
 
-👤 **Author1**
+👤 👤 **Solomon Hagan**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Achilles-Dev](https://github.com/Achilles-Dev/)
+- Twitter: [@SoloAchilles](https://twitter.com/SoloAchilles/)
+- LinkedIn: [Solomon Hagan](https://www.linkedin.com/in/solomon-hagan/)
 
 ## 🤝 Contributing
 
@@ -73,3 +78,4 @@ Give a ⭐️ if you like this project!
 This project is [MIT](./LICENSE) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
